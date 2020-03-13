@@ -1,7 +1,7 @@
 
 \paper {}
 \header {
-tagline= "Typeset with OMET (www.omet.ca) - Engraved with Lilypond (www.lilypond.org)"
+tagline= "Typeset with OMET (https://omet.ca) - Engraved with Lilypond (https://www.lilypond.org)"
 }
  guitarUpper= \relative c{
 	\voiceOne
