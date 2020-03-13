@@ -7,9 +7,8 @@ tagline= "Typeset with OMET (https://omet.ca) - Engraved with Lilypond (https://
 	\voiceOne
 	\clef "G_8"
 	\time 2/4
-
 	\key	a \major
-	\time	2/4
+	
 	r16  a'  cis  e  dis  e  fis  e  |
 	d  e  b  e  d  e  b  e  |
 	cis  e  dis  e  a  gis  fis  e  |
@@ -67,7 +66,7 @@ guitarStaff = \simultaneous {
 \midi{ 
     \context { 
     \Score 
-    tempoWholesPerMinute = #(ly:make-moment 90 4) 
+    tempoWholesPerMinute = #(ly:make-moment 120 4) 
     } 
 } 
 \layout{  
