@@ -10,21 +10,17 @@ tagline= "Typeset with OMET (https://omet.ca) - Engraved with Lilypond (https://
 
 	\key	a \major
 	\time	2/4
-    r16  a'  cis  e  dis  e  fis  e  |
+	r16  a'  cis  e  dis  e  fis  e  |
 	d  e  b  e  d  e  b  e  |
 	cis  e  dis  e  a  gis  fis  e  |
 	d  e  b  e  d  e  b  e  |
 	r  cis  a'  cis,  r  cis  a'  cis,  |
-
- 
 
 	r16  b  a'  b,  r  b  gis'  b,  |
 	r  a  cis  e  dis  e  fis  e  |
 	d  e  b  e  d  e  b  e  |
 	cis  e  dis  e  a  gis  fis  e  |
 	d  e  b  e  d  e  b  e  |
-	
- 
 
 	r16  cis  a'  cis,  r  cis  a'  cis,  |
 	r  d  <b' fis > d,  r  e  <e' gis, > e,  |
@@ -67,7 +63,7 @@ guitarStaff = \simultaneous {
 	    \context Voice= guitarUpper \guitarUpper
 	    \context Voice= guitarLower \guitarLower
     	>>
-	>>
+>>
 \midi{ 
     \context { 
     \Score 
